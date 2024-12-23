@@ -23,14 +23,6 @@ const IPODetailsPage = () => {
       listedOn: "15 Dec 22",
       listingPrice: "₹150",
       listingGain: "₹10 (10.0%)",
-      timeline: [
-        { label: "Bidding starts", date: "12 Dec 2023" },
-        { label: "Bidding ends", date: "15 Dec 2023" },
-        { label: "Allotment finalization", date: "17 Dec 2023" },
-        { label: "Refund initiation", date: "18 Dec 2023" },
-        { label: "Demat transfer", date: "19 Dec 2023" },
-        { label: "Listing date", date: "21 Dec 2023" },
-      ],
       about: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem distinctio modi. Iste 
       dolore provident unde itaque omnis accusamus labore, ab doloremque saepe error sapiente expedita in. Perspiciatis, 
       itaque tenetur?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem distinctio modi. 
@@ -59,14 +51,6 @@ const IPODetailsPage = () => {
       listedOn: "13 Dec 22",
       listingPrice: "₹160",
       listingGain: "₹15 (12.0%)",
-      timeline: [
-        { label: "Bidding starts", date: "10 Dec 2023" },
-        { label: "Bidding ends", date: "12 Dec 2023" },
-        { label: "Allotment finalization", date: "14 Dec 2023" },
-        { label: "Refund initiation", date: "15 Dec 2023" },
-        { label: "Demat transfer", date: "16 Dec 2023" },
-        { label: "Listing date", date: "18 Dec 2023" },
-      ],
       about: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem distinctio modi. Iste 
       dolore provident unde itaque omnis accusamus labore, ab doloremque saepe error sapiente expedita in. Perspiciatis, 
       itaque tenetur?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem distinctio modi. 
@@ -95,14 +79,6 @@ const IPODetailsPage = () => {
       listedOn: "To be announced",
       listingPrice: "₹150",
       listingGain: "₹10 (10.0%)",
-      // timeline: [
-      //   { label: "Bidding starts", date: "12 Dec 2023" },
-      //   { label: "Bidding ends", date: "15 Dec 2023" },
-      //   { label: "Allotment finalization", date: "17 Dec 2023" },
-      //   { label: "Refund initiation", date: "18 Dec 2023" },
-      //   { label: "Demat transfer", date: "19 Dec 2023" },
-      //   { label: "Listing date", date: "21 Dec 2023" },
-      // ],
       about: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem distinctio modi. Iste 
       dolore provident unde itaque omnis accusamus labore, ab doloremque saepe error sapiente expedita in. Perspiciatis, 
       itaque tenetur?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem distinctio modi. 
@@ -198,60 +174,7 @@ const IPODetailsPage = () => {
           </div>
           </div>
         </div>
-
-        {/* <div className="ipo-timeline">
-          <h2>IPO timeline</h2>
-          <ul>
-            {ipoDetails.timeline.map((event, index) => (
-              <li key={index}>
-                <div className="timeline-circle"></div>
-                
-                <p>{event.label}</p>
-                <span>{event.date}</span>
-            
-              </li>
-            ))}
-          </ul>
-        </div> */}
-
-{/* <div className="ipo-timeline">
-        <h3>IPO timeline</h3>
-        <div className="timeline">
-          <div className="timeline-step">
-            <div className="timeline-circle active"></div>
-            <p>Bidding Starts</p>
-            <p>12 Dec 2023</p>
-          </div>
-          <div className="timeline-step">
-            <div className="timeline-circle active"></div>
-            <p>Bidding Ends</p>
-            <p>15 Dec 2023</p>
-          </div>
-          <div className="timeline-step">
-            <div className="timeline-circle active"></div>
-            <p>Allotment Finalization</p>
-            <p>18 Dec 2023</p>
-          </div>
-          <div className="timeline-step">
-            <div className="timeline-circle active"></div>
-            <p>Refund Initiation</p>
-            <p>18 Dec 2023</p>
-          </div>
-          <div className="timeline-step">
-            <div className="timeline-circle active"></div>
-            <p>Demat transfer</p>
-            <p>18 Dec 2023</p>
-          </div>
-          <div className="timeline-step">
-            <div className="timeline-circle active"></div>
-            <p>Listing Date</p>
-            <p>21 Dec 2023</p>
-          </div>
-        </div>
-      </div> */}
-
-
-<div className="timeline">
+  <div className="timeline">
 <h2>IPO timeline</h2>
 <div className="ipo-timeline">
 
